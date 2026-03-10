@@ -1,3 +1,9 @@
-x=1+1+
-print(x)
-print("hello world")
+def main():
+    hello()
+    name = input("What is your name? ")
+    hello(name)
+
+def hello(to="world"):
+    print("Hello,", to)
+
+main()
